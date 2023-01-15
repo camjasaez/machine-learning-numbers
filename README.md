@@ -48,3 +48,13 @@
 13. Y para salir de todas las dudas, hicimos la prueba final que consistió en tener solo dos capas ocultas pero con 200 neuronas cada una. Dándonos como resultado un porcentaje de precisión de 99% que es el mejor resultado hasta el momento.
 
 ### _Como conclusión final pareciera ser evidente que es mejor tener una buena cantidad de neuronas por capas, que tener muchas capas y pocas neuronas._
+
+## 🛠️ Herramientas & Librerias
+
+- [Tensorflow](https://www.tensorflow.org/) - Create production-grade machine learning models with TensorFlow
+- [Pandas](https://pandas.pydata.org/) - Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
+built on top of the Python programming language.
+- [matplotlib](https://matplotlib.org/) - Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
+- [numpy](https://numpy.org/) - The fundamental package for scientific computing with Python
+
+⌨️ with ❤️ by [@camjasaez](https://github.com/camjasaez)
