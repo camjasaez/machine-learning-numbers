@@ -32,8 +32,8 @@ datos_pruebas = datos_pruebas.cache()
 # Crear el modelo
 modelo = tf.keras.Sequential([
     tf.keras.layers.Flatten(input_shape=(28, 28, 1)),
-    tf.keras.layers.Dense(20, activation=tf.nn.relu),
-    tf.keras.layers.Dense(20, activation=tf.nn.relu),
+    tf.keras.layers.Dense(50, activation=tf.nn.relu),
+    tf.keras.layers.Dense(50, activation=tf.nn.relu),
     tf.keras.layers.Dense(10, activation=tf.nn.softmax)
 ])
 
@@ -121,11 +121,3 @@ for i in range(num_imagenes):
     graficar_valor_arreglo(i, predicciones, etiquetas_prueba)
 
 plt.show()
-
-# Probar una imagen suelta
-# AL ser la variable imagenes_prueba solo tiene lo que se le puso en el bloque anterior heheh
-# imagen = imagenes_prueba[4]
-# imagen = np.array([imagen])
-# prediccion = modelo.predict(imagen)
-
-# print("Prediccion: " + nombres_clases[np.argmax(prediccion[0])])
